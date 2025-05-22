@@ -37,7 +37,7 @@ def parse_tcp_header(data):
 
 def main():
     sock = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.htons(socket.ETH_P_ALL))
-    sock.bind(('labnet-br2', 0))
+    sock.bind(('eth0', 0))
     
     print("Sniffing packets....")
     with open("capture.log", 'a') as log_file:
