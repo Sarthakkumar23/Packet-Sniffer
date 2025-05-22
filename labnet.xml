@@ -1,0 +1,7 @@
+<network>
+  <name>labnet</name>
+  <uuid>50a49eef-caea-44f9-ba7b-a9435db8b2e2</uuid>
+  <bridge name='labnet-br2' stp='off' delay='0'/>
+  <mac address='52:54:00:c0:39:79'/>
+  <forward mode='none'/>
+</network>
