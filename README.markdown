@@ -88,9 +88,9 @@ This project implements a packet sniffer and analyzer to capture HTTP and FTP tr
   TCP Packet: 192.168.1.20:56558 -> 192.168.1.30:21
   ^C
   stopped sniffing.
-```
-- Sample capture.log Format:
   ```
+- Sample capture.log Format:
+```
   192.168.1.20:34324 -> 192.168.1.30:80
   Payload: 
   GET / HTTP/1.1
@@ -103,7 +103,7 @@ This project implements a packet sniffer and analyzer to capture HTTP and FTP tr
   192.168.1.20:56558 -> 192.168.1.30:21
   Payload: 
   USER Anonymous
-  ```
+```
 
 ## Ethical Use
 This tool is for educational purposes only. Unauthorized packet sniffing is illegal and unethical. Ensure you have permission to monitor the network and comply with all applicable laws.
